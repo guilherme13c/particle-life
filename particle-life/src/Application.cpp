@@ -3,7 +3,7 @@
 int main(void)
 {
     GLFWwindow* window = glfw_setup();
-    assert(window != nullptr);
+    ASSERT(window != nullptr);
 
     game_loop(window);
 
